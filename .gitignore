@@ -45,8 +45,19 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+/.env
+/.env.stg
+/.env.dev
+
 **/ios/Flutter/DartDefines.xcconfig
 **/ios/GoogleService-Info.plist
 **/ios/Runner/Firebase/Development/GoogleService-Info.plist
 **/ios/Runner/Firebase/Staging/GoogleService-Info.plist
 **/ios/Runner/Firebase/Production/GoogleService-Info.plist
+
+**/android/app/google-services.json
+**/android/app/src/Development/google-services.json
+**/android/app/src/Staging/google-services.json
+**/android/app/src/Production/google-services.json
+
+/flavor-procedure.txt

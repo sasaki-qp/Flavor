@@ -7,7 +7,7 @@ class Env {
   }) {
     switch (input) {
       case "Development":
-        envFilePath = ".env";
+        envFilePath = ".env.dev";
         break;
 
       case "Staging":
@@ -15,7 +15,7 @@ class Env {
         break;
 
       case "Production":
-        envFilePath = ".env.prod";
+        envFilePath = ".env";
         break;
     }
   }

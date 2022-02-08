@@ -26,5 +26,5 @@ flutter:
 
   assets:
     - .env
+    - .env.dev
     - .env.stg
-    - .env.prod
